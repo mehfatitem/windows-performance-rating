@@ -1,0 +1,41 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin : 0;
+  margin-top:20% !important;
+}
+
+.make_darkness{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.table-title {
+  margin-top:25px !important;
+  background-color:white !important;
+  width: 20% !important;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#score-table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.warning-text {
+  font-weight: bold;
+  bold;color:red;
+}
+
+#loading{
+   position: absolute;
+    display: inline;
+    z-index: 4;
+    margin-top: 19px;
+    margin-left: -25px;
+    top: 300px;
+}

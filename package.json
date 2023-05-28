@@ -1,0 +1,36 @@
+{
+  "name": "windows-rating",
+  "productName": "windows-rating",
+  "version": "1.0.0",
+  "description": "Windows System Rating",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-packager . --platform=win32 --arch=x64 --out=dist",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mehmed Fatih Temiz",
+    "email": "temizfatih54@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.7.0",
+    "jsdom": "^22.1.0",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^24.4.0",
+    "electron-packager": "^17.1.1"
+  }
+}
