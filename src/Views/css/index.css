@@ -33,9 +33,6 @@ body {
 
 #loading{
    position: absolute;
-    display: inline;
-    z-index: 4;
-    margin-top: 19px;
-    margin-left: -25px;
-    top: 300px;
+   display: inline;
+   z-index: 1000;
 }
